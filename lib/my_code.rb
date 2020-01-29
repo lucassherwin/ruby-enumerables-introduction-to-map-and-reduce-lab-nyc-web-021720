@@ -50,7 +50,7 @@ def reduce_to_total(source_array, start = 0)
 end
 
 def reduce_to_all_true(arr)
-  val = false
+  val = true
   i = 0
   while i < arr.length do
     val = val and arr[i]

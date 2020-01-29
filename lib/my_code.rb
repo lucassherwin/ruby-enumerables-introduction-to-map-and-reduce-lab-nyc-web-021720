@@ -38,3 +38,13 @@ def map_to_square(arr)
   end
   square_arr
 end
+
+def reduce_to_total(source, start)
+  reduce_arr = []
+  i = start
+  while i < source.length do
+    reduce_arr[i] += source[i]
+    i += 1
+  end
+  reduce_arr
+end

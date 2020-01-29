@@ -7,3 +7,4 @@ def map_to_negativize(arr)
     i += 1
   end
   neg_arr
+end

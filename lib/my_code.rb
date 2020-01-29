@@ -48,3 +48,18 @@ def reduce_to_total(source_array, start = 0)
   end
   total
 end
+
+def reduce_to_all_true(arr)
+  true_arr = []
+  i = 0
+  while i < arr.length do
+    if arr[i] == true
+      true_arr[i] = arr[i]
+      i += 1
+    else
+      true_arr[i] = true
+      i += 1
+    end
+  end
+  true_arr
+end

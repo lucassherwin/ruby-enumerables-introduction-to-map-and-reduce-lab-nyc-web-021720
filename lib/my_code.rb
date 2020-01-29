@@ -18,3 +18,12 @@ def map_to_no_change(arr)
   end
   new_arr
 end
+
+def map_to_double(arr)
+  double_arr = []
+  i = 0
+  while i < arr.length do
+    double_arr[i] = arr[i] * 2
+  end
+  double_arr
+end

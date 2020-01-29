@@ -58,3 +58,10 @@ def reduce_to_all_true(arr)
   end
   val
 end
+
+def reduce_to_any_true(arr)
+  val = true
+  i = 0
+  while i < arr.length do
+    val = val and arr[i]
+  end

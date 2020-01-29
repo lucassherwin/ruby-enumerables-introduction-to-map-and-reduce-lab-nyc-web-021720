@@ -63,7 +63,7 @@ def reduce_to_any_true(arr)
   val = false
   i = 0
   while i < arr.length do
-    val = val and !arr[i]
+    val = val and arr[i]
     i += 1
   end
   val

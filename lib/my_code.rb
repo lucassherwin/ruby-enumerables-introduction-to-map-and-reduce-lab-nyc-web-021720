@@ -50,16 +50,11 @@ def reduce_to_total(source_array, start = 0)
 end
 
 def reduce_to_all_true(arr)
-  true_arr = []
+  val = true
   i = 0
   while i < arr.length do
-    if arr[i] == true
-      true_arr[i] = arr[i]
-      i += 1
-    else
-      true_arr[i] = true
-      i += 1
-    end
+    val = val or arr[i]
+    i += 1
   end
-  true_arr
+  val
 end

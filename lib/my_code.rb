@@ -34,3 +34,6 @@ def map_to_square(arr)
   i = 0
   while i < arr.length do
     square_arr[i] = arr[i] ** 2
+  end
+  square_arr
+end
